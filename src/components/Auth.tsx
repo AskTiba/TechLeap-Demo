@@ -63,7 +63,7 @@ const Auth = () => {
 
   return (
     <>
-      <main className="flex text-[15px]">
+      <main className="flex text-[15px] py-5">
         <section className="w-[50%] mx-5">
           <img className="w-full max-h-screen rounded-xl" src={photo1} alt="" />
         </section>
