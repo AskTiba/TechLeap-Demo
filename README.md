@@ -1,30 +1,70 @@
-# React + TypeScript + Vite
+# 🚀 TechLeap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and modern **personal portfolio landing page** built with [Vite](https://vitejs.dev/), [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/).
 
-Currently, two official plugins are available:
+**Live Demo**: [View TechLeap here](https://your-live-demo-url.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Table of Contents
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Deployment](#deployment)
+- [Screenshots](#screenshots)
+- [Author](#author)
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 📖 About
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**TechLeap** is a developer-focused landing page designed as a **personal portfolio**. Think of it as your digital business card — but interactive, beautiful, and fully responsive.
+
+The goal is to help developers and creatives showcase their work, experience, and online presence with a modern aesthetic and solid performance.
+
+---
+
+## ✨ Features
+
+- ✅ **Hero Section** with catchy intro and branding
+- ✅ **About & Services** blocks to explain what you do
+- ✅ **Call to Action (CTA)** elements to direct user flow
+- ✅ **Responsive Navigation Bar** with smooth scrolling
+- ✅ **Contact Form** (can be wired up to services like Formspree)
+- ✅ **Footer with Social Links**
+- ✅ Fully responsive and accessible
+
+---
+
+## ⚙️ Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| [Vite](https://vitejs.dev/) | Fast dev server & build tool |
+| [React](https://reactjs.org/) | UI Library |
+| [TypeScript](https://www.typescriptlang.org/) | Type safety |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling |
+| [React Icons](https://react-icons.github.io/react-icons/) | Icons |
+| [Heroicons](https://heroicons.com/) | SVG icons (if used) |
+
+---
+
+## 🛠️ Getting Started
+
+To run this project locally:
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/AskTiba/TechLeap-Demo.git
+
+# 2. Navigate into the project
+cd TechLeap-Demo
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the dev server
+npm run dev
